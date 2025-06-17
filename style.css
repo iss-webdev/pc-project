@@ -114,3 +114,53 @@ p:hover{
     }
 }
 
+@media (max-width:600px) {
+    body {
+        background-image: url(Download\ Computer\ hardware\ equipment\ \ for\ free.jpg);
+        background-repeat: no-repeat;
+        background-size: 600px;
+    }
+
+
+    header {
+        padding: 20px;
+        display: inline-block;
+    }
+
+    .home {
+        margin-left: 200px;
+    }
+
+    .home ul {
+        font-size: 10px;
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        display: inline-block;
+        margin-left: 10px;
+        color: #e06a6a;
+    }
+
+    .construction h1 {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .construction p {
+        margin-left: 20px;
+        font-size: 10px;
+        max-width: 300px;
+    }
+
+    .images img {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        gap: 20px;
+    }
+}
+
